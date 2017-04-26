@@ -1,6 +1,6 @@
-#CAP Theorem AP/CP Replication Key/Value NoSQL REST Database
+# CAP Theorem AP/CP Replication Key/Value NoSQL REST Database
 
-##Project Demo on YouTube:
+## Project Demo on YouTube:
 CAP Theorem - AP implementation on Amazon AWS
 
 https://youtu.be/0HpfOYEh8H4
@@ -10,7 +10,7 @@ CAP Theorem - CP implementation on Amazon AWS - Part 2
 https://youtu.be/nM1x990jGAw
 
 
-##Preface:
+## Preface:
 
 This project has been extended from an existing key/value database store written in Java and using the Shore DB API Design. 
 The starter source code is available in GitHub at:
@@ -18,7 +18,7 @@ The starter source code is available in GitHub at:
 https://github.com/paulnguyen/data/tree/master/nosql
 
 
-##Objectives:
+## Objectives:
 
 * Implement a "three node" instance of the database on AWS EC2 free-tier instances.
 * Design should support both -  either AP or CP based replication at a time
@@ -28,12 +28,12 @@ https://github.com/paulnguyen/data/tree/master/nosql
 * Replication must be between the nodes using the internal network
 * The document format must be in JSON
 
-##Prerequisites:
+## Prerequisites:
 * Requires Java 8
 * Requires Amazon AWS account
 * Install Apache server for load balancer health checks on HTTP port 80
 
-##Setup on Amazon AWS:
+## Setup on Amazon AWS:
 * Launch and instance, install Java 8, apache server and copy project code to the instance.
 * Try running the code by executing the script run-as-master-ap.sh just to make sure that there are no compilation errors.
 * If you see "Starting the internal HTTP server on port 8080" and "Starting the internal HTTP server on port 8081", set up was successful.
